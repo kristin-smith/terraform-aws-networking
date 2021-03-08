@@ -1,7 +1,7 @@
 variable "aws_region" {}
 
 variable "vpc_cidr" {
-  default = "10.123.0.0/16"
+  default = "10.124.0.0/16"
 }
 variable "public_cidrs" {
   default = ["10.124.1.0/24", "10.124.3.0/24"]
